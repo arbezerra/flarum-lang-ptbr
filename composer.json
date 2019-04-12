@@ -1,0 +1,41 @@
+{
+    "name": "dynastyking/flarum-lang-ptbr",
+    "type": "flarum-extension",
+    "description": "Brazilian Portuguese language pack.",
+    "homepage": "https://github.com/DynastyKing/flarum-lang-ptbr",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "authors": [
+	    {
+		    "name": "Andre Bezerra",
+		    "email": "arbezerra@gmail.com",
+		    "homepage": "https://www.andrebezerra.com"
+	    }
+           
+    ],
+    "support": {
+        "issues": "https://github.com/DynastyKing/flarum-lang-ptbr/issues",
+        "source": "https://github.com/DynastyKing/flarum-lang-ptbr"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.8"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Brazilian Portuguese",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#007c00",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "pt-BR",
+            "title": "Brazilian Portuguese"
+        }
+    }
+}

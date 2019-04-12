@@ -1,0 +1,104 @@
+validation:
+  accepted: ":attribute deve ser aceito."
+  active_url: ":attribute não é uma URL válida."
+  after: ":attribute deve ser uma data após :date."
+  after_or_equal: ":attribute deve ser uma data após ou igual a :date."
+  alpha: ":attribute pode apenas conter letras."
+  alpha_dash: ":attribute pode apenas conter letras, números, hífem e underline."
+  alpha_num: ":attribute pode apenas conter letras e números."
+  array: ":attribute deve ser uma lista."
+  before: ":attribute dever ser uma data anterior a :date."
+  before_or_equal: ":attribute dever ser uma data anterior ou igual a :date."
+  between:
+    numeric: ":attribute deve ser entre :min e :max."
+    file: ":attribute deve ser entre :min e :max kilobytes."
+    string: ":attribute dever ser entre :min e :max caracteres."
+    array: ":attribute deve ter entre :min e :max itens."
+  boolean: ":attribute deve ser verdadeiro ou falso."
+  confirmed: "confirmação de :attribute não corresponde."
+  date: ":attribute não é uma data válida."
+  date_format: ":attribute não corresponde ao formato :other."
+  different: ":attribute e :other devem ser diferentes."
+  digits: ":attribute deve ter :digits digitos."
+  digits_between: ":attribute deve ter entre :min e :max digitos."
+  dimensions: ":attribute tem dimensões inválidas."
+  distinct: ":attribute deve ser único."
+  email: ":attribute deve ser um email válido."
+  exists: ":attribute selecionado é inválido."
+  file: ":attribute deve ser um arquivo."
+  filled: ":attribute deve ter um valor."
+  gt:
+    numeric: ":attribute deve ser maior que :value."
+    file: ":attribute deve ser maior que :value kilobytes."
+    string: ":attribute deve ter maior que :value caracteres."
+    array: ":attribute deve ter mais que :value itens."
+  gte:
+    numeric: ":attribute deve ser maior ou igual a :value."
+    file: ":attribute deve ser maior ou igual a :value kilobytes."
+    string: ":attribute deve ter maior ou igual a :value caracteres."
+    array: ":attribute deve ter :value itens ou mais."
+  image: ":attribute deve ser uma imagem."
+  in: ":attribute selecionado não é válido."
+  in_array: ":attribute não existe em :other."
+  integer: ":attribute deve ser um inteiro."
+  ip: ":attribute deve ser um ip válido."
+  ipv4: ":attribute dever ser um IPv4 válido."
+  ipv6: ":attribute dever ser um IPv6 válido."
+  json: ":attribute dever ser um JSON válido."
+  lt:
+    numeric: ":attribute deve ser menor que :value."
+    file: ":attribute deve ser menor que :value kilobytes."
+    string: ":attribute deve ter menos de :value caracteres."
+    array: ":attribute deve ter menos que :value itens."
+  lte:
+    numeric: ":attribute deve ser menor than ou igual a :value."
+    file: ":attribute deve ser menor ou igual a :value kilobytes."
+    string: ":attribute deve ter menos ou igual a :value caracteres."
+    array: ":attribute não deve ter mais que :value itens."
+  max:
+    numeric: ":attribute não pode ser maior que :max."
+    file: ":attribute não pode ser maior que :max kilobytes."
+    string: ":attribute não pode ser maior que :max caracteres."
+    array: ":attribute não pode ter maior que :max itens."
+  mimes: ":attribute deve ser do tipo: :values."
+  mimetypes: ":attribute deve ser um arquivo do tipo: :values."
+  min:
+    numeric: ":attribute deve ser pelo menos :min."
+    file: ":attribute deve ser pelo menos :min kilobytes."
+    string: ":attribute deve ter pelo menos :min caracteres."
+    array: ":attribute deve ter pelo menos :min itens."
+  not_in: ":attribute selecionado é inválido."
+  not_regex: "formato de :attribute é inválido."
+  numeric: ":attribute deve ser um número."
+  present: ":attribute deve estar presente."
+  regex: "formato de :attribute é inválido."
+  required: ":attribute é requerido."
+  required_if: ":attribute é requerido quando :other é :value."
+  required_unless: ":attribute é requerido a menos que :other esteja em :values."
+  required_with: ":attribute é requerido quando :values está presente."
+  required_with_all: ":attribute é requerido quando :values estão presentes."
+  required_without: ":attribute é requerido quando :values não está presente."
+  required_without_all: ":attribute é requerido quando nenhum dos :values estão presentes."
+  same: ":attribute e :other devem corresponder."
+  size:
+    numeric: ":attribute deve ser :size."
+    file: ":attribute deve ser :size kilobytes."
+    string: ":attribute deve ser :size caracteres."
+    array: ":attribute deve conter :size itens."
+  string: ":attribute deve ser uma string."
+  timezone: ":attribute deve ser uma zona de tempo válida."
+  unique: ":attribute já foi usado."
+  uploaded: ":attribute não foi possível fazer upload."
+  url: "formato de :attribute não é válido."
+  uuid: ":attribute deve ser um UUID válido."
+
+  attributes:
+    username: username
+    password: senha
+    email: email
+    title: título
+    content: conteúdo
+    name_singular: nome singular
+    name_plural: nome plural
+    tag_count_primary: número de tags primárias
+    tag_count_secondary: número de tags secundárias

@@ -1,0 +1,61 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: Flag posts
+      view_flags_label: Ver posts com flag
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: URL de Diretrizes da Comunidade
+      title: Configurações das Flags
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: Obrigado por dar flag neste post. Nossos moderadores irão investigar.
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: Inapropridado
+      reason_inappropriate_text: "Esse post é ofensivo, abusivo ou viola nossas <a>Diretrizes da Comunidade</a>."
+      reason_off_topic_label: "Off-topic"
+      reason_off_topic_text: Esse post não é relevante para a atual discussão e deve ser movido para outro lugar.
+      reason_other_label: Outro
+      reason_spam_label: Spam
+      reason_spam_text: Esse post é uma propaganda.
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: Sem Flags
+      item_text: "{username} em <em>{discussion}</em>"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_button: Cancelar Flag
+      flagged_by_text: "Sinalizado por {username}"
+      flagged_by_with_reason_text: "Sinalizado por {username} motivo: {reason}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: Flag
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: Post Flag
+    flagged_posts: Posts Sinalizados
