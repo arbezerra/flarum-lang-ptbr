@@ -15,7 +15,7 @@ flarum-tags:
     edit_tag:
       color_label: => core.ref.color
       delete_tag_button: Apagar Tag
-      delete_tag_confirmation: "Tem certeza que deseja apgar esta tag? As discussões com esta tag NÃO serão apagadas."
+      delete_tag_confirmation: "Tem certeza que deseja apagar esta tag? As discussões com esta tag NÃO serão apagadas."
       description_label: Descrição
       hide_label: Esconda de Todas as Discussões
       name_label: => flarum-tags.ref.name
