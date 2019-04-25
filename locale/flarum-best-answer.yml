@@ -1,0 +1,15 @@
+flarum-best-answer:
+    admin:
+        permissions:
+            best_answer: => flarum-best-answer.ref.best_answer
+        settings:
+            title: "Configurações da melhor resposta"
+            allow_select_own_post: "Permitir que o usuário selecione sua própria postagem"
+    forum:
+        this_best_answer: "Esta é a melhor resposta"
+        remove_best_answer: "Remova a melhor resposta atual"
+        header_best_answer: "Escolhida pelo criador do post como a melhor resposta"
+        best_answer_button: => flarum-best-answer.ref.best_answer
+        best_answer: => flarum-best-answer.ref.best_answer
+    ref:
+      best_answer: 'Melhor resposta'
