@@ -15,8 +15,8 @@ flagrow-user-directory:
         seen_oldest: Mais tempo offline
         most_posts: Mais posts
         least_posts: Menos posts
-        most_discussions: Mais discussões
-        least_discussions: Menos discussões
+        most_discussions: Mais diagnóstico
+        least_discussions: Menos diagnóstico
   admin:
     permissions:
       view_user_directory: Ver Lista de Usuários
