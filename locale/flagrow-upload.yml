@@ -1,99 +1,99 @@
 flagrow-upload:
-    forum:
-        buttons:
-            attach: Anexar
-        states:
-            loading: Carregando
-            success: Sucesso
-            error: Erro
-    admin:
-        templates:
-            image: Modelo de download de imagem padrão
-            image_description: >
-                Mostra uma miniatura da imagem e proxies de download através do php.
-                Permitindo que as estatísticas sejam coletadas e proteção de hotlink.
-            file: Modelo de download de arquivo padrão
-            file_description: >
-                Mostra o nome do arquivo e algumas informações gerais. Proxies de downloads
-                através php, permitindo a coleta de estatísticas e proteção de hotlink.
-            image-preview: Modelo completo de visualização de imagem
-            image-preview_description: >
-                Mostra a imagem completa em linha. Sem funcionalidade de download, sem estatísticas
-                são reunidos e a proteção de hotlink é ignorada.
-        permissions:
-            upload_label: Upload de arquivos
-            download_label: Download de arquivos
-        upload_methods:
-            local: Local
-            aws-s3: Amazon S3
-            imgur: Imgur
-            ovh-svfs: OVH SVFS
-        labels:
-            preferences:
-                title: Preferências Gerais
-                max_file_size: Tamanho de arquivo máximo (em kilobytes)
-                mime_types: Configure seu mime type, upload adapter mapping
-            resize:
-                title: Redimensionamento de imagem
-                toggle: Redimensionamento de imagens
-                max_width: Largura máxima da imagem
-                max_height: Altura máxima da imagem
-            watermark:
-                title: Imagens de marca d'água
-                toggle: Imagens de marca d'água
-                position: Posição da marca d'água
-                file: Upload da marca d'água
-            local:
-                title: Configurações de armazenamento local
-                cdn_url: URL de entrega de conteúdo (prefixos de arquivos)
-            imgur:
-                title: Configurações de armazenamento de imagem do Imgur
-                client_id: Imgur client ID
-            aws-s3:
-                title: Configurações de armazenamento do AWS S3
-                key: Key
-                secret: Secret
-                bucket: Bucket
-                region: Region
-            ovh-svfs:
-                title: Configurações de armazenamento OVH SVFS
-                container: Container
-                tenantid: Tenant ID
-                username: Username
-                password: Password
-                region: Region
-            disable-hotlink-protection:
-                title: Desativar proteção de hotlink
-                toggle: Desativar
-            disable-download-logging:
-                title: Desativar log de downloads
-                toggle: Desativar
+  forum:
+    buttons:
+      attach: Anexar
+    states:
+      loading: Carregando
+      success: Sucesso
+      error: Erro
+  admin:
+    templates:
+      image: Modelo de download de imagem padrão
+      image_description: >
+        Mostra uma miniatura da imagem e proxies de download através do php.
+        Permitindo que as estatísticas sejam coletadas e proteção de hotlink.
+      file: Modelo de download de arquivo padrão
+      file_description: >
+        Mostra o nome do arquivo e algumas informações gerais. Proxies de downloads
+        através php, permitindo a coleta de estatísticas e proteção de hotlink.
+      image-preview: Modelo completo de visualização de imagem
+      image-preview_description: >
+        Mostra a imagem completa em linha. Sem funcionalidade de download, sem estatísticas
+        são reunidos e a proteção de hotlink é ignorada.
+    permissions:
+      upload_label: Upload de arquivos
+      download_label: Download de arquivos
+    upload_methods:
+      local: Local
+      aws-s3: Amazon S3
+      imgur: Imgur
+      ovh-svfs: OVH SVFS
+    labels:
+      preferences:
+        title: Preferências Gerais
+        max_file_size: Tamanho de arquivo máximo (em kilobytes)
+        mime_types: Configure seu mime type, upload adapter mapping
+      resize:
+        title: Redimensionamento de imagem
+        toggle: Redimensionamento de imagens
+        max_width: Largura máxima da imagem
+        max_height: Altura máxima da imagem
+      watermark:
+        title: Imagens de marca d'água
+        toggle: Imagens de marca d'água
+        position: Posição da marca d'água
+        file: Upload da marca d'água
+      local:
+        title: Configurações de armazenamento local
+        cdn_url: URL de entrega de conteúdo (prefixos de arquivos)
+      imgur:
+        title: Configurações de armazenamento de imagem do Imgur
+        client_id: Imgur client ID
+      aws-s3:
+        title: Configurações de armazenamento do AWS S3
+        key: Key
+        secret: Secret
+        bucket: Bucket
+        region: Region
+      ovh-svfs:
+        title: Configurações de armazenamento OVH SVFS
+        container: Container
+        tenantid: Tenant ID
+        username: Username
+        password: Password
+        region: Region
+      disable-hotlink-protection:
+        title: Desativar proteção de hotlink
+        toggle: Desativar
+      disable-download-logging:
+        title: Desativar log de downloads
+        toggle: Desativar
 
-        buttons:
-            save: Salvar configurações
-        help_texts:
-            description: >
-                Configure os serviços e preferências de upload.
-            mime_types: >
-                Por favor, configure seu mapeamento aqui. Cada expressão regular
-                 de mime type será tratada por um adaptador específico
-                 de upload e modelo de download.
-            download_templates: >
-                Os modelos de download são como os uploads são exibidos em seu fórum,
-                por exemplo, como previews, botões. Disponível atualmente:
-            resize: >
-                Escolha se você deseja redimensionar suas imagens antes
-                de serem enviadas. Você pode escolher uma largura
-                e altura máxima, em pixels. O processo de redimensionamento mantém o
-                aspect ratio das imagens.
-            watermark: >
-                Escolha se as imagens terão uma marca d'água adicionada durante o
-                upload. Marcas d'água são adicionadas a não-gifs com base na suas
-                preferências abaixo.
-            disable-hotlink-protection: >
-                Proteção de Hotlink impede a abertura de downloads de outros sites.
-                O método atual requer um token csrf e um id de postagem.
-            disable-download-logging: >
-                Desabilite o registro de todos os downloads feitos pelos usuários do seu fórum. Mantendo isso
-                ativado permite que você visualize o número de downloads e outras métricas
-                no futuro próximo.
+    buttons:
+      save: Salvar configurações
+    help_texts:
+      description: >
+        Configure os serviços e preferências de upload.
+      mime_types: >
+        Por favor, configure seu mapeamento aqui. Cada expressão regular
+         de mime type será tratada por um adaptador específico
+         de upload e modelo de download.
+      download_templates: >
+        Os modelos de download são como os uploads são exibidos em seu fórum,
+        por exemplo, como previews, botões. Disponível atualmente:
+      resize: >
+        Escolha se você deseja redimensionar suas imagens antes
+        de serem enviadas. Você pode escolher uma largura
+        e altura máxima, em pixels. O processo de redimensionamento mantém o
+        aspect ratio das imagens.
+      watermark: >
+        Escolha se as imagens terão uma marca d'água adicionada durante o
+        upload. Marcas d'água são adicionadas a não-gifs com base na suas
+        preferências abaixo.
+      disable-hotlink-protection: >
+        Proteção de Hotlink impede a abertura de downloads de outros sites.
+        O método atual requer um token csrf e um id de postagem.
+      disable-download-logging: >
+        Desabilite o registro de todos os downloads feitos pelos usuários do seu fórum. Mantendo isso
+        ativado permite que você visualize o número de downloads e outras métricas
+        no futuro próximo.

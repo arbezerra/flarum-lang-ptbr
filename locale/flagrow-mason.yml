@@ -1,104 +1,104 @@
 flagrow-mason:
-    forum:
-        discussion-controls:
-            edit-answers: Editar campos
-        answers-modal:
-            edit-title: Editar campos de {title}
-            save: Salvar campos
-        post-answers:
-            no-answer: Nenhuma resposta
-        answers:
-            choose-option: Escolha uma opção
-            no-option-selected: Nenhuma opção selecionada
-        tags:
-            inadequate-settings: >
-                Definições de Tag não estão configuradas corretamente.
-                Permita até uma tag primária e secundária, ou desabilite a opção "Tags como campos".
-            tags-label: Tags
-    admin:
-        buttons:
-            new-field: Novo campo
-            add-field: Adicionar campo
-            save-field: Salvar alterações
-            delete-field: Deletar campo
-            edit-field: Clique para editar o campo
-            add-answer: Adicionar resposta
-            save-answer: Savar alterações
-            delete-answer: Deletar resposta
-            show-user-answers: Exibir respostas não sugeridas ({count})
-        menu:
-            description: >
-                Configure campos customizados de discussão.
-        fields:
-            add: Adicionar campo {field}
-            edit: Editar campo {field}
-            required: Requerido
-            name: Nome do campo
-            name-help: >
-                O rótulo de campo visível publicamente (não traduzível).
-            description: Descrição do campo
-            description-help: >
-                Uma descrição opcional para explicar o uso / necessidade deste campo.
-            min_answers_count: Quantidade mínima requerida de respostas
-            max_answers_count: Quantidade máxima permitida de respostas
-            show_when_empty: Exibir quando vazio
-            show_when_empty-help:
-                Se deve mostrar o campo na discussão quando não tem resposta
-            validation: Validação para valores inseridos pelo usuário
-            user_values_allowed: Permitir o usuário inserir valores
-            user_values_allowed-help: >
-                Se ativado, os usuários podem adicionar seus próprios valores em vez daqueles definidos pelo administrador.
-                Esses valores serão verificados em relação à configuração "Validação".
-                Se desativado, só poderá usar respostas "sugeridas".
-            validation-help: >
-                Verifique as regras de validação do <a> Laravel </a>. Por exemplo:
-                "string|min: 5" ou "url".
-            enable-user-values-for-validation: Ative "valores do usuário" para configurar regras de validação
-            icon: Icone
-            icon-help: >
-                Mostra um ícone na frente dos valores inseridos pelo usuário. Para uma referência de
-                ícones disponíveis, consulte o <a> site da FontAwesome </a>.
-                Use o nome completo da classe de ícones, incluindo o prefixo, por exemplo, "fas fa-bolt".
-            icon-preview: "preview: {preview}"
-            save-field-for-answers: Salve o campo para adicionar respostas
-            is_suggested: Sugerir resposta aos usuários
-            new-answer-placeholder: Algum texto
-        messages:
-            delete-answer-confirmation: >
-                Tem certeza que deseja apagar esta resposta "{content}" ?
-                Será removido de todas as discussões que a usam.
-                Se você quiser manter as respostas existentes, desative a sugestão de resposta.
-                Apagar resposta ?
-            delete-field-confirmation: >
-                Tem certeza que deseja apagar este campo "{name}" ?
-                O campo e suas respostas serão removidos de todas as discussões que os usam.
-                Apagar campo ?
-        settings:
-            fields-section-title: Título da seção de campos personalizados
-            fields-section-title-placeholder: Por padrão, nenhum título sera exibido
-            fields-section-title-help: >
-                Os usuários verão esse texto acima dos campos personalizados no editor e na discussão.
-            column-count: Número de colunas ao exibir os campos
-            n-columns: "{count} colunas"
-            labels-as-placeholders: Mostrar rótulos como espaços reservados no formulário
-            labels-as-placeholders-help: >
-                Os campos usarão menos espaço vertical e os ícones não serão mais exibidos.
-                Lembre-se de que isso pode afetar a usabilidade, especialmente ao editar campos existentes.
-            fields-in-hero: Mostrar campos no banner de discussão em vez do primeiro post
-            hide-empty-fields-section: Ocultar título e controla quando todos os campos estão vazios e ocultos
-            hide-empty-fields-section-help: >
-                Por padrão, se o usuário puder editar campos ou um título tiver sido definido, a seção será sempre exibida, mesmo que todos os campos estejam ocultos.
-                Com essa opção ativada, a seção ficará oculta e o botão "editar campos" estará disponível apenas dentro do menu suspenso "responder" quando todos os campos estiverem em branco.
-            tags-as-field: Exibir seletor de tags como campo
-            tags-as-field-help: >
-                Isso ocultará o seletor de tags padrão e mostrará um campo suspenso personalizado.
-                Isso só funcionará se você permitir até uma tag primária e secundária!
-            tags-field-name: Rótulo do campo de tags
-            tags-field-name-placeholder: => flagrow-mason.forum.tags.tags-label
-        titles:
-            settings: Configurações
-            fields: Campos
-        permissions:
-            update-own-fields: Atualizar campos Mason da própria discussão
-            update-other-fields: Atualizar campos Mason de qualquer discussão
-            skip-required-fields: Ignorar campos Mason requeridos
+  forum:
+    discussion-controls:
+      edit-answers: Editar campos
+    answers-modal:
+      edit-title: Editar campos de {title}
+      save: Salvar campos
+    post-answers:
+      no-answer: Nenhuma resposta
+    answers:
+      choose-option: Escolha uma opção
+      no-option-selected: Nenhuma opção selecionada
+    tags:
+      inadequate-settings: >
+        Definições de Tag não estão configuradas corretamente.
+        Permita até uma tag primária e secundária, ou desabilite a opção "Tags como campos".
+      tags-label: Tags
+  admin:
+    buttons:
+      new-field: Novo campo
+      add-field: Adicionar campo
+      save-field: Salvar alterações
+      delete-field: Deletar campo
+      edit-field: Clique para editar o campo
+      add-answer: Adicionar resposta
+      save-answer: Savar alterações
+      delete-answer: Deletar resposta
+      show-user-answers: Exibir respostas não sugeridas ({count})
+    menu:
+      description: >
+        Configure campos customizados de discussão.
+    fields:
+      add: Adicionar campo {field}
+      edit: Editar campo {field}
+      required: Requerido
+      name: Nome do campo
+      name-help: >
+        O rótulo de campo visível publicamente (não traduzível).
+      description: Descrição do campo
+      description-help: >
+        Uma descrição opcional para explicar o uso / necessidade deste campo.
+      min_answers_count: Quantidade mínima requerida de respostas
+      max_answers_count: Quantidade máxima permitida de respostas
+      show_when_empty: Exibir quando vazio
+      show_when_empty-help:
+        Se deve mostrar o campo na discussão quando não tem resposta
+      validation: Validação para valores inseridos pelo usuário
+      user_values_allowed: Permitir o usuário inserir valores
+      user_values_allowed-help: >
+        Se ativado, os usuários podem adicionar seus próprios valores em vez daqueles definidos pelo administrador.
+        Esses valores serão verificados em relação à configuração "Validação".
+        Se desativado, só poderá usar respostas "sugeridas".
+      validation-help: >
+        Verifique as regras de validação do <a> Laravel </a>. Por exemplo:
+        "string|min: 5" ou "url".
+      enable-user-values-for-validation: Ative "valores do usuário" para configurar regras de validação
+      icon: Icone
+      icon-help: >
+        Mostra um ícone na frente dos valores inseridos pelo usuário. Para uma referência de
+        ícones disponíveis, consulte o <a> site da FontAwesome </a>.
+        Use o nome completo da classe de ícones, incluindo o prefixo, por exemplo, "fas fa-bolt".
+      icon-preview: "preview: {preview}"
+      save-field-for-answers: Salve o campo para adicionar respostas
+      is_suggested: Sugerir resposta aos usuários
+      new-answer-placeholder: Algum texto
+      messages:
+        delete-answer-confirmation: >
+          Tem certeza que deseja apagar esta resposta "{content}" ?
+          Será removido de todas as discussões que a usam.
+          Se você quiser manter as respostas existentes, desative a sugestão de resposta.
+          Apagar resposta ?
+        delete-field-confirmation: >
+          Tem certeza que deseja apagar este campo "{name}" ?
+          O campo e suas respostas serão removidos de todas as discussões que os usam.
+          Apagar campo ?
+      settings:
+        fields-section-title: Título da seção de campos personalizados
+        fields-section-title-placeholder: Por padrão, nenhum título sera exibido
+        fields-section-title-help: >
+          Os usuários verão esse texto acima dos campos personalizados no editor e na discussão.
+        column-count: Número de colunas ao exibir os campos
+        n-columns: "{count} colunas"
+        labels-as-placeholders: Mostrar rótulos como espaços reservados no formulário
+        labels-as-placeholders-help: >
+          Os campos usarão menos espaço vertical e os ícones não serão mais exibidos.
+          Lembre-se de que isso pode afetar a usabilidade, especialmente ao editar campos existentes.
+        fields-in-hero: Mostrar campos no banner de discussão em vez do primeiro post
+        hide-empty-fields-section: Ocultar título e controla quando todos os campos estão vazios e ocultos
+        hide-empty-fields-section-help: >
+          Por padrão, se o usuário puder editar campos ou um título tiver sido definido, a seção será sempre exibida, mesmo que todos os campos estejam ocultos.
+          Com essa opção ativada, a seção ficará oculta e o botão "editar campos" estará disponível apenas dentro do menu suspenso "responder" quando todos os campos estiverem em branco.
+        tags-as-field: Exibir seletor de tags como campo
+        tags-as-field-help: >
+          Isso ocultará o seletor de tags padrão e mostrará um campo suspenso personalizado.
+          Isso só funcionará se você permitir até uma tag primária e secundária!
+        tags-field-name: Rótulo do campo de tags
+        tags-field-name-placeholder: => flagrow-mason.forum.tags.tags-label
+      titles:
+        settings: Configurações
+        fields: Campos
+      permissions:
+        update-own-fields: Atualizar campos Mason da própria discussão
+        update-other-fields: Atualizar campos Mason de qualquer discussão
+        skip-required-fields: Ignorar campos Mason requeridos
