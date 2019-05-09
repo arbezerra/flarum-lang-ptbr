@@ -8,6 +8,7 @@ Extensões traduzidas:
 * Flagrow/{Bazaar, Mason, Upload, User-Directory}
 * Flarum/{Akismet, Approval, Auth-Facebook, Auth-Github, Auth-Twitter, Best-Answer, Core, Emoji, Flags, Likes, Lock, Markdown, Mentions, Pusher, Statistics, Sticky, Subscriptions, Suspend, Tags}
 * Fof/{Links, Pages}
+* Michaelbelgium/Flarum-discussion-views
 * ReFlar/Gamification
 
 ## Instalação
