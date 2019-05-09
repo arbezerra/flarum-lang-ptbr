@@ -3,6 +3,13 @@
 
 Tradução do Fórum Flarum (v0.1.0-beta.8) para Português do Brasil
 
+Extensões traduzidas:
+
+* Flagrow/{Bazaar, Mason, Upload, User-Directory}
+* Flarum/{Akismet, Approval, Auth-Facebook, Auth-Github, Auth-Twitter, Best-Answer, Core, Emoji, Flags, Likes, Lock, Markdown, Mentions, Pusher, Statistics, Sticky, Subscriptions, Suspend, Tags}
+* Fof/{Links, Pages}
+* Michaelbelgium/Flarum-discussion-views
+* ReFlar/Gamification
 
 ## Instalação
 Instale usando o comando:
