@@ -246,7 +246,7 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: Usuários Ativos
+      activate_button: Ativar Usuário
       email_heading: => core.ref.email
       email_label: => core.ref.email
       groups_heading: Grupos
