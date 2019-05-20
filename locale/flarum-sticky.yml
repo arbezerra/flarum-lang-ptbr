@@ -9,7 +9,7 @@ flarum-sticky:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      sticky_discussions_label: Discussões fixadas
+      sticky_discussions_label: diagnóstico fixadas
 
   # Translations in this namespace are used by the forum user interface.
   forum:

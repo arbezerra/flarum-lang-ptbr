@@ -49,7 +49,7 @@ core:
       show_language_selector_label: Exibe o seletor de lingua
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Banner de boas-vindas
-      welcome_banner_text: Configure o texto exibido no baner da página Todas as Discussões. Use-o para dar boas-vindas aos visitantes do fórum.
+      welcome_banner_text: Configure o texto exibido no baner da página Todos os Diagnósticos. Use-o pora dar boas-vindas aos visitantes do fórum.
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -137,8 +137,8 @@ core:
       allow_post_editing_label: Permitir edição de post
       allow_renaming_label: Permitir renomear
       create_heading: Criar
-      delete_discussions_forever_label: Apagar discussões para sempre
-      delete_discussions_label: Apagar discussões
+      delete_discussions_forever_label: Apagar diagnóstico para sempre
+      delete_discussions_label: Apagar diagnóstico
       delete_posts_forever_label: Apagar posts para sempre
       delete_posts_label: Apagar posts
       edit_posts_label: Editar posts
@@ -147,11 +147,11 @@ core:
       new_group_button: Novo Grupo
       participate_heading: Participe
       read_heading: Leia
-      rename_discussions_label: Renomear discussões
-      reply_to_discussions_label: Responder discussões
+      rename_discussions_label: Renomear diagnóstico
+      reply_to_discussions_label: Responder diagnóstico
       sign_up_label: Cadastrar
       start_discussions_label: Começar discussão
-      view_discussions_label: Ver discussões
+      view_discussions_label: Ver diagnóstico
       view_last_seen_at_label: Ver a última vez que o usuário entrou no fórum
       view_post_ips_label: Ver IP do post
       view_user_list_label: Ver lista de usuários
@@ -238,7 +238,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: Parece que não tem nenhuma discussão.
+      empty_text: Parece que não tem nenhum diagnóstico.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Marcar como lido
       replied_text: "{username} respondeu {ago}"
@@ -271,7 +271,7 @@ core:
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: Administração
-      back_to_index_tooltip: Voltar para lista de Discussões
+      back_to_index_tooltip: Voltar para lista de diagnóstico
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Perfil
@@ -283,7 +283,7 @@ core:
     index:
       all_discussions_link: => core.ref.all_discussions
       cannot_start_discussion_button: Can't Start Discussion
-      mark_all_as_read_confirmation: "Tem certeza que deseja marcar todas as discussões como lidas?"
+      mark_all_as_read_confirmation: "Tem certeza que deseja marcar Todos os Diagnósticos como lidos?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Refresh
       start_discussion_button: => core.ref.start_a_discussion
@@ -350,7 +350,7 @@ core:
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Pesquise em todas as discussões por "{query}"'
+      all_discussions_button: 'Pesquise em Todos os Diagnósticos por "{query}"'
       discussions_heading: => core.ref.discussions
       users_heading: => core.ref.users
 
@@ -527,7 +527,7 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: Todas as Discussões
+    all_discussions: Todos os Diagnósticos
     change_email: Alterar Email
     change_password: Alterar Senha
     color: Cor                                 # Referenced by flarum-tags.yml
@@ -539,7 +539,7 @@ core:
     custom_header_title: Editar Custom Header
     delete: Apagar
     delete_forever: Apagar para sempre
-    discussions: Discussões                     # Referenced by flarum-statistics.yml
+    discussions: diagnóstico                     # Referenced by flarum-statistics.yml
     edit: Editar
     email: Email
     load_more: Carregar Mais
@@ -561,7 +561,7 @@ core:
     settings: Configurações
     sign_up: Cadastrar
     some_others: "{count} outro|{count} outros"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Começar uma Discussão
+    start_a_discussion: Novo Diagnóstico
     username: Username
     users: Usuários                                 # Referenced by flarum-statistics.yml
     write_a_reply: Escreva uma Resposta...
