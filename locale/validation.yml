@@ -17,6 +17,7 @@ validation:
   boolean: ":attribute deve ser verdadeiro ou falso."
   confirmed: "confirmação de :attribute não corresponde."
   date: ":attribute não é uma data válida."
+  date_equals: ":attribute deve ser uma data igual a :date."
   date_format: ":attribute não corresponde ao formato :other."
   different: ":attribute e :other devem ser diferentes."
   digits: ":attribute deve ter :digits digitos."
@@ -24,6 +25,7 @@ validation:
   dimensions: ":attribute tem dimensões inválidas."
   distinct: ":attribute deve ser único."
   email: ":attribute deve ser um email válido."
+  ends_with: ":attribute deve terminar com: :values"
   exists: ":attribute selecionado é inválido."
   file: ":attribute deve ser um arquivo."
   filled: ":attribute deve ter um valor."
@@ -85,6 +87,7 @@ validation:
     file: ":attribute deve ser :size kilobytes."
     string: ":attribute deve ser :size caracteres."
     array: ":attribute deve conter :size itens."
+  starts_with: ":attribute deve iniciar com: :values"
   string: ":attribute deve ser uma string."
   timezone: ":attribute deve ser uma zona de tempo válida."
   unique: ":attribute já foi usado."
@@ -93,7 +96,7 @@ validation:
   uuid: ":attribute deve ser um UUID válido."
 
   attributes:
-    username: username
+    username: usuário
     password: senha
     email: email
     title: título

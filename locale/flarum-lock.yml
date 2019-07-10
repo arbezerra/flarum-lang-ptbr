@@ -9,7 +9,7 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: Trancar discussão
+      lock_discussions_label: Trancar discussões
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -34,4 +34,4 @@ flarum-lock:
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: Alguém trancou uma discussão que eu comecei
+      notify_discussion_locked_label: Notificar quando alguém trancar uma discussão que eu comecei

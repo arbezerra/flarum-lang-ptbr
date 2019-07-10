@@ -9,10 +9,10 @@ flarum-markdown:
 
     # These translations are used by the composer (emoji autocompletion function).
     composer:
-      bold_tooltip: Adicionar texto em negrito
+      bold_tooltip: Texto em negrito
       code_tooltip: Inserir código
       header_tooltip: Adicionar cabeçalho
-      italic_tooltip: Adicionar texto em itálico
+      italic_tooltip: Texto em itálico
       link_tooltip: Adicionar link
       ordered_list_tooltip: Adicionar lista numerada
       quote_tooltip: Inserir citação

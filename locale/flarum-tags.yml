@@ -14,6 +14,8 @@ flarum-tags:
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
       color_label: => core.ref.color
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       delete_tag_button: Apagar Tag
       delete_tag_confirmation: "Tem certeza que deseja apagar esta tag? As discussões com esta tag NÃO serão apagadas."
       description_label: Descrição
@@ -27,26 +29,26 @@ flarum-tags:
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Gerenciar a lista de tags disponíveis para organizar as discussões.
+      tags_text: Gerencie a lista de tags disponíveis para organizar as discussões.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Permitir Editar Tag
-      restrict_by_tag_heading: Restringir por Tag
-      tag_discussions_label: Tag Discussão
+      allow_edit_tags_label: Permitir Editar Tags
+      restrict_by_tag_heading: Permissões por Tag
+      tag_discussions_label: Gerenciar Tags das discussões
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
       range_separator_text: " até "
-      required_primary_heading: Número necessário de tags principais
-      required_primary_text: Digite o número mínimo e máximo de tags primárias que podem ser aplicadas a uma discussão.
-      required_secondary_heading: Número necessário de tags secundárias
+      required_primary_heading: Número obrigatório de tags principais
+      required_primary_text: Digite o número mínimo e máximo de tags primárias que devem ser aplicadas a uma discussão.
+      required_secondary_heading: Número obrigatório de tags secundárias
       required_secondary_text: Digite o número mínimo e máximo de tags secundárias que podem ser aplicadas a uma discussão.
-      title: Configurações de Tag
+      title: Configurações de Tags
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "Tags são usadas para categorizar discussões. Tags primárias são como categorias tradicionais: eles podem ser organizados em uma hierarquia de dois níveis. Tags secundárias não possuem hierarquia ou ordem e são úteis para micro-categorização."
+      about_tags_text: "Tags são usadas para categorizar discussões. Tags primárias são como categorias tradicionais: elas podem ser organizadas em uma hierarquia de até dois níveis. Tags secundárias não possuem hierarquia ou níveis e são úteis para micro-categorização."
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Tags Primárias
       secondary_heading: Tags Secundárias

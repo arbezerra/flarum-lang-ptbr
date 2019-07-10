@@ -9,9 +9,9 @@ flarum-approval:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      approve_posts_label: Posts aprovados
-      reply_without_approval_label: Responder discussão não aprovada
-      start_discussions_without_approval_label: Começar discussão não aprovada
+      approve_posts_label: Aprovar posts
+      reply_without_approval_label: Responder discussão sem aprovação
+      start_discussions_without_approval_label: Começar discussão sem aprovação
 
   # Translations in this namespace are used by the forum user interface.
   forum:

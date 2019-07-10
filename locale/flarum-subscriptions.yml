@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Desseguir
-      unignore_button: Designorar
+      unfollow_button: Parar de seguir
+      unignore_button: Parar de ignorar
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -28,8 +28,8 @@ flarum-subscriptions:
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Automaticamente seguir discussão que eu responder
-      notify_new_post_label: Alguem postou em uma discussão que eu sigo
+      follow_after_reply_label: Seguir automaticamente todas as discussões que eu responder
+      notify_new_post_label: Notificar quando alguém postar em uma discussão que eu sigo
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
@@ -40,8 +40,8 @@ flarum-subscriptions:
       ignoring_text: Nunca seja notificado. Esconda da lista de discussão.
       not_following_button: Não Seguindo
       not_following_text: "Seja notificado apenas quando @mencionado."
-      notify_alert_tooltip: Receba uma notificação quando tiver novos posts
-      notify_email_tooltip: Receba um email quando tiver novos posts
+      notify_alert_tooltip: Receba uma notificação quando houver novos posts
+      notify_email_tooltip: Receba um email quando houver novos posts
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
