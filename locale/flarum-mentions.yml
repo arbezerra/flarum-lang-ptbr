@@ -16,12 +16,12 @@ flarum-mentions:
     notifications:
       others_text: => core.ref.some_others
       post_mentioned_text: "{username} respondeu seu post"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username} lhe mencionou"
+      user_mentioned_text: "{username} mencionou você"
 
     # These translations are displayed beneath individual posts.
     post:
-      mentioned_by_self_text: "{users} responderam to this."  # Can be pluralized to agree with the number of users!
-      mentioned_by_text: "{users} responderam to this."       # Can be pluralized to agree with the number of users!
+      mentioned_by_self_text: "{users} responderam este post."  # Can be pluralized to agree with the number of users!
+      mentioned_by_text: "{users} responderam este post."       # Can be pluralized to agree with the number of users!
       others_text: => core.ref.some_others
       quote_button: Citação
       reply_link: => core.ref.reply
@@ -29,8 +29,8 @@ flarum-mentions:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_mentioned_label: Alguém respondeu um de meus posts
-      notify_user_mentioned_label: Alguém me mencionou em um post
+      notify_post_mentioned_label: Notificar quando alguém responder um dos meus posts
+      notify_user_mentioned_label: Notificar quando alguém fizer menção a mim em algum post
 
     # These translations are used in the user profile page and profile popup.
     user:
